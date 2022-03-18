@@ -141,10 +141,15 @@
     }
 
     .link{
-        color: red;
+        color: black;
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         padding-left: 42.5%;
+    }
+
+    .calc{
+        text-align: center;
+        color:black;
     }
     
 

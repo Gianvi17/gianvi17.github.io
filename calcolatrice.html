@@ -4,14 +4,15 @@
         <script type="text/javascript">
         function funzioneProdotto()
         {
+            
             var numero1=document.forms["moltiplicazione"]["n1"].value;
             var numero2=document.forms["moltiplicazione"]["n2"].value;
             risultato=numero1*numero2;
             window.alert("Risultato: "+risultato);
         }
         </script>
-        <script>
-        function funzioneDivsione()
+        <script> 
+        function funzioneDivsione() 
         {
             var numero1=document.forms["divisione"]["n1"].value;
             var numero2=document.forms["divisione"]["n2"].value;
@@ -42,26 +43,26 @@
    </script>
     </head>
     <body>
-        <h1>moltiplicazione</h1>
-        <form name="moltiplicazione">
+        <h1 class="calc">moltiplicazione</h1>
+        <form class="calc" name="moltiplicazione">
             inserire primo numero<input name="n1"><br/><br/>
             inserire secondo numero<input name="n2"><br/><br/>
             <input type="button" value="calcola!" onclick="funzioneProdotto()">
         </form>
-        <h1>divisione</h1>
-        <form name="divisione">
+        <h1 class="calc">divisione</h1>
+        <form class="calc" name="divisione">
             inserire primo numero<input name="n1"><br/><br/>
             inserire secondo numero<input name="n2"><br/><br/>
             <input type="button" value="calcola!" onclick="funzioneDivsione()">
         </form>
-        <h1>addizione</h1>
-        <form name="addizione">
+        <h1 class="calc">addizione</h1>
+        <form class="calc" name="addizione">
             inserire primo numero<input name="n1"><br/><br/>
             inserire secondo numero<input name="n2"><br/><br/>
             <input type="button" value="calcola!" onclick="funzioneAddizione()">
         </form>
-        <h1>sottrazione</h1>
-        <form name="sottrazione">
+        <h1 class="calc">sottrazione</h1>
+        <form class="calc" name="sottrazione">
             inserire primo numero<input name="n1"><br/><br/>
             inserire secondo numero<input name="n2"><br/><br/>
             <input type="button" value="calcola!" onclick="funzioneSottrazione()">
