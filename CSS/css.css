@@ -152,6 +152,27 @@
         color:black;
     }
     
+    .home{
+        font-size: 20pt;
+        text-align: center;
+        
+    }
+    
+    #img_museo{
+        height: 500px;
+        padding-top: 2%;
+    }
+    
+    .map{
+        float: left;
+    }
+
+    .linkmuseo{
+        color: black;
+        font-weight: bold;
+    }
+    
+    
 
 
  
